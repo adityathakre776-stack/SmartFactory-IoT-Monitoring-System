@@ -76,6 +76,8 @@ Industrial plants (such as chemical blending, processing, and heavy manufacturin
 ```text
 ├── assets/
 │   └── smart_factory_poster.jpg    # High-resolution project poster & schematics
+├── Photos/                         # Hardware enclosures, sensor wiring, & prototype builds
+├── Video/                          # Live operational demo & test bench videos
 ├── arduino/
 │   ├── sender1/sender1.ino         # Node 1: Processing Unit firmware
 │   ├── sender2.ino                 # Node 2: Packaging Unit firmware
@@ -173,6 +175,15 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to access th
 * **Role-Based Access Control (RBAC):** Distinct roles for Plant Floor Workers and Safety Managers.
 * **Persistent Event Logging:** Immutable event history with incident resolution tracking (`/api/alerts/resolve`).
 * **Visual Audit Trail:** ESP32-CAM images timestamped and archived per alert event.
+
+---
+
+## 📸 Hardware Prototype & Video Demonstrations
+
+* **Hardware & Sensor Build Gallery:** Explore the [`Photos/`](Photos/) folder for high-resolution images of the ESP32 transmitter enclosures, sensor node wiring (MQ, MPU6050, Flame, HC-SR04), and LoRa receiver gateway.
+* **Operational Video Walkthroughs:**
+  * 📹 **[Prototype Overview Video](Video/WhatsApp%20Video%202026-11-19%20at%2011.41.58%20PM.mp4)** — Quick walk-through of the assembled node and live sensor activity.
+  * 📹 **[Full System Live Field Test](Video/WhatsApp%20Video%202026-11-20%20at%2012.15.40%20AM%20(1).mp4)** — Extended demonstration showing real-time hazard triggers, LoRa transmission, and dashboard telemetry responses.
 
 ---
 
