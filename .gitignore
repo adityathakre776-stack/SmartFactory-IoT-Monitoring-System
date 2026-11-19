@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json.backup
+
+# Production build
+dist/
+build/
+*/dist/
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.env
+!.env.example
+venv/
+.venv/
+env/
+
+# Uploads and temporary files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Antigravity/Internal metadata
+.sixth/
